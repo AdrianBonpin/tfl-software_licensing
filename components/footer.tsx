@@ -9,8 +9,12 @@ export default function Footer() {
                 <p>Abellana, Zenno</p>
                 <p>Bonpin, Adrian</p>
                 <p>Dubrico, Desiree</p>
-                <p>Erada, Zraim</p>
+                <p>Derecho, Andrew</p>
+                <p>Ebrada, Zraim</p>
                 <p>Sobrecaray, Ian</p>
+                <p>Jacob, Xander</p>
+                <p>Tapia, Malcolm</p>
+                <p>Marinao, Luis</p>
             </footer>
             <footer className={styles.footer2}>
                 <span>© 2024 Group 3</span>
