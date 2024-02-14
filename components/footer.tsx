@@ -12,7 +12,7 @@ export default function Footer() {
                 <p>Derecho, Andrew</p>
                 <p>Ebrada, Zraim</p>
                 <p>Sobrecaray, Ian</p>
-                <p>Jacob, Xander</p>
+                <p>Labide, Xander</p>
                 <p>Tapia, Malcolm</p>
                 <p>Marinao, Luis</p>
             </footer>
