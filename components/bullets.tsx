@@ -62,7 +62,7 @@ export default function FLBullets() {
                 <div />
                 <div />
 
-                <div>1</div>
+                <div>2</div>
 
                 <div>Why are licenses important?</div>
 
@@ -114,7 +114,7 @@ export default function FLBullets() {
                 <div />
                 <div />
 
-                <div>1</div>
+                <div>3</div>
 
                 <div>Categories of software licenses</div>
 
@@ -153,7 +153,7 @@ export default function FLBullets() {
                 <div />
                 <div />
 
-                <div>1</div>
+                <div>4</div>
 
                 <div>Difference between Audacity and FL Studio</div>
 

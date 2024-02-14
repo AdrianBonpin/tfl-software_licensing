@@ -15,10 +15,10 @@ export default function LandingPage() {
           <h3>Learn more about software licensing</h3>
           <div>
             <Link href={'#try'}>
-              <button type='button'>Try for free</button>
+              <button type='button'>Learn More</button>
             </Link>
-            <Link href={''}>
-              <button type='button'>Buy now</button>
+            <Link href={'https://instagram.com/adrianbonpin'}>
+              <button type='button'>Developed By</button>
             </Link>
           </div>
         </div>
