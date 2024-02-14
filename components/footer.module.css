@@ -1,0 +1,27 @@
+.footer {
+    padding: 1rem 4rem;
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    place-items: center;
+
+    background: var(--tertiary);
+}
+
+.footer > h4 {
+    grid-column: 1 / 4;
+}
+
+.footer2 {
+    width: 100%;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer2 *:last-child {
+    text-decoration: underline;
+}

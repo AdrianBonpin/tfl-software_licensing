@@ -1,0 +1,65 @@
+:root {
+    --bg: #16182c;
+    --primary: #ff7629;
+    --secondary: #ff5e03;
+    --tertiary: #23283c;
+    --text: #fff;
+    --nav: 6rem;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: all ease 300ms;
+    color: var(--text);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    position: relative;
+    width: 100lvw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    overflow-x: hidden;
+    background: var(--bg);
+}
+
+button {
+    padding: .75rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background: var(--primary);
+    border-radius: 8rem;
+    border: none;
+}
+
+button:hover {
+    background: var(--secondary);
+}

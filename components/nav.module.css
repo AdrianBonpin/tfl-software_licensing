@@ -1,0 +1,31 @@
+.navbar {
+    padding: 0 3rem;
+    position: sticky;
+    top: 0;
+
+    width: 100lvw;
+    height: var(--nav);
+    background: var(--bg);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+
+    z-index: 1;
+}
+
+.logo {
+    height: calc(var(--nav) - 1rem);
+    width: auto;
+}
+
+.navbar > a {
+    color: white;
+    font-weight: 300;
+}
+
+.navbar > a:hover {
+    color: var(--secondary);
+}
