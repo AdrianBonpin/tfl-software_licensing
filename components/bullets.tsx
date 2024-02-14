@@ -191,7 +191,12 @@ export default function FLBullets() {
 
 
                 <div />
-                <div />
+                <BCont
+                    content='Target Users'
+                    bullets={[
+                        'Audacity is suitable for individuals or small teams who need basic audio editing capabilities without the need for advanced music production tools.',
+                        'FL Studio is geared towards music producers, composers, and artists who require a comprehensive suite of tools for professional music production and sound design.'
+                ]}/>
                 <BCont
                     content='Cost'
                     bullets={[
@@ -199,12 +204,7 @@ export default function FLBullets() {
                         'FL Studio offers different editions with varying prices, ranging from the affordable "Fruity Edition" to the more feature-rich "Producer" and "Signature" editions.'
                 ]}/>
                 <div />
-                <BCont
-                    content='Target Users'
-                    bullets={[
-                        'Audacity is suitable for individuals or small teams who need basic audio editing capabilities without the need for advanced music production tools.',
-                        'FL Studio is geared towards music producers, composers, and artists who require a comprehensive suite of tools for professional music production and sound design.'
-                ]}/>
+ 
                 <div />
 
                 <div />

@@ -212,7 +212,7 @@
 .bullet:nth-child(4) > div:nth-child(17) {
     background: var(--track-2-active);
 }
-.bullet:nth-child(4) > div:nth-child(19) {
+.bullet:nth-child(4) > div:nth-child(16) {
     background: var(--track-2-active);
 }
 
