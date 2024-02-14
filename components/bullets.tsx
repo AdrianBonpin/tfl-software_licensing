@@ -159,10 +159,36 @@ export default function FLBullets() {
 
                 <div />
 
+                <BCont
+                    content='Purpose and Focus'
+                    bullets={[
+                        'Audacity is primarily designed for recording, editing, and manipulating audio files.',
+                        'FL Studio, on the other hand, is more comprehensive and is designed for music production, including recording, arranging, composing, mixing, and mastering music tracks.'
+                ]}/>
+                
                 <div />
                 <div />
+
+                <BCont
+                    content='User Interface'
+                    bullets={[
+                        'Audacity has a relatively simple and straightforward user interface, making it easy to use for beginners.',
+                        'FL Studio has a more complex and feature-rich interface, with multiple panels, windows, and tools for various aspects of music production. '
+                ]}/>
+
                 <div />
                 <div />
+
+                <BCont
+                    content='Features'
+                    bullets={[
+                        'Audacity offers essential audio editing features such as cutting, copying, and pasting audio, as well as effects like equalization, noise reduction, and compression.',
+                        'FL Studio provides a comprehensive set of features for music production, including a wide range of virtual instruments, synthesizers, audio effects, MIDI support, and automation. It offers advanced features like pattern-based sequencing, audio recording, time-stretching, and pitch-shifting.'
+                ]}/>
+
+                
+                
+
 
                 <div />
                 <div />
