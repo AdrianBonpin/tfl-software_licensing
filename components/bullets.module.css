@@ -209,6 +209,12 @@
 .bullet:nth-child(4) > div:nth-child(14) {
     background: var(--track-2-active);
 }
+.bullet:nth-child(4) > div:nth-child(17) {
+    background: var(--track-2-active);
+}
+.bullet:nth-child(4) > div:nth-child(19) {
+    background: var(--track-2-active);
+}
 
 .clickable,
 .clickable_active {
