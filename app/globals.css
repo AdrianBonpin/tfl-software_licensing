@@ -4,6 +4,15 @@
     --secondary: #ff5e03;
     --tertiary: #23283c;
     --text: #fff;
+
+    --active: #29fda8;
+    --disabled: #3d3d3d;
+
+    --track-1: #242424;
+    --track-1-active: #795ff6;
+    --track-2: #333333;
+    --track-2-active: #3aa8ff;
+
     --nav: 6rem;
 }
 
@@ -19,16 +28,20 @@
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: black;
+    background: var(--secondary);
     border-radius: 1rem;
 }
 
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
 ::-webkit-scrollbar-track {
-    background: white;
+    background: var(--tertiary);
 }
 
 html {
@@ -36,14 +49,15 @@ html {
 }
 
 body {
+    padding: 0 3rem;
     position: relative;
     width: 100lvw;
-    height: auto;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 2rem;
 
     overflow-x: hidden;
     background: var(--bg);

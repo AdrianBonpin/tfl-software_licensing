@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import styles from './landing.module.css'
+import { LicenseIcon } from '@/utils/images'
+import FLBullets from '@/components/bullets'
 
 export default function LandingPage() {
 
@@ -12,7 +14,7 @@ export default function LandingPage() {
           <h2>A legal agreement acting as a permission slip for software</h2>
           <h3>Learn more about software licensing</h3>
           <div>
-            <Link href={''}>
+            <Link href={'#try'}>
               <button type='button'>Try for free</button>
             </Link>
             <Link href={''}>
@@ -21,8 +23,11 @@ export default function LandingPage() {
           </div>
         </div>
         <div className={styles.main_splash}>
-          
+          <LicenseIcon/>
         </div>
+      </section>
+      <section id='try' className={styles.bullets}>
+        <FLBullets />
       </section>
     </>
   )

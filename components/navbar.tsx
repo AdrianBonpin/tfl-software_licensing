@@ -8,7 +8,7 @@ export default function Navbar() {
         <nav className={styles.navbar}>
             <Link href={'/'}><LogoIcon className={styles.logo}/></Link>
             <Link href={'#top'}>FL Study</Link>
-            <Link href={'/'}>Software Licensing</Link>
+            <Link href={'#try'}>Software Licensing</Link>
             <Link href={'#footer'}><button type='button'>Group 3</button></Link>
         </nav>
     )

@@ -1,6 +1,7 @@
 .footer {
+    position: relative;
     padding: 1rem 4rem;
-    width: 100%;
+    width: 100lvw;
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,8 +16,9 @@
 }
 
 .footer2 {
-    width: 100%;
-    padding: 2rem 5rem;
+    width: 100lvw;
+    padding: 0 5rem;
+    padding-bottom: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
