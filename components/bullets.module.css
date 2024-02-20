@@ -6,6 +6,27 @@
     place-items: center;
 }
 
+@media (max-width: 1024px) {
+    .bullet {
+        grid-template-areas: 
+        'top top top top top'
+        'bot bot bot bot bot bot bot bot bot bot bot bot bot bot bot bot bot'
+        ;
+    }
+
+    .bullet > div {
+        grid-area: bot;
+    }
+
+    .bullet > div:nth-child(1),
+    .bullet > div:nth-child(2),
+    .bullet > div:nth-child(3),
+    .bullet > div:nth-child(4),
+    .bullet > div:nth-child(5) {
+        grid-area: top;
+    }
+}
+
 .bullet > div:nth-child(1) {
     width: 60%;
     height: auto;
